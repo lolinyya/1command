@@ -40,7 +40,7 @@ class ImportUsersCommand extends Command
         $filename = $input->getArgument('filename');
         $delimiter = $input->getOption('delimiter');
         $skipHeader = !$input->getOption('no-header');
-        $filePath = __DIR__ . '/file/' . $filename;
+        $filePath = __DIR__ . '/files/' . $filename;
 
         if (!file_exists($filePath)) {
             $io->error("файл не найден: $filePath");
