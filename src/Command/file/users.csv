@@ -1,0 +1,7 @@
+email;firstName;lastName;age;statusName
+ivanov@example.com;Иван;Иванов;30;Не активен
+petrova@example.com;Мария;Максимова;25;Активен
+sidorov@example.com;Петр;Антонов;;Активен
+sidorov@example.com;Сергей;Сидоров;;Не активен
+kuznecov@example.com;Алексей;Иванов;40;
+test@example.com;;;;
